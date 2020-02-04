@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-public class Dog implements Serializable,Cloneable {
+public class Dog implements Serializable , Cloneable {
     private String name;
     private int age;
     private Owner owner;
