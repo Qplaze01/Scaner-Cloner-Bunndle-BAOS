@@ -19,8 +19,7 @@ public class ScannerForDouble {
 
                     try {
                         System.out.println(scaner.nextDouble());
-                    } catch (InputMismatchException e) {
-                        System.out.println(scaner.nextDouble());
+                    } catch (InputMismatchException e) {                  
                     }
                 } else {
                     scaner.next();
